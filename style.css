@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    color: black;
+    background-color: white;
+    font-family: 'Frijole', cursive;
+    text-transform: capitalize;
+    text-align: center;
+}
+.navigation .links .link a {
+    text-decoration: none;
+    color: black;
+float: right;
+margin-right: 10px;
+text-transform: uppercase;
+font-family: 'Titan One', cursive;
+}
+.logo {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.navigation .links .link{
+    display: inline;
+
+}
+.navigation .links .link :hover {
+    color:white;
+    background-color: #fab1a0;
+}
+
+.navigation {
+    width: 100%;
+position: fixed;
+background-color: white;
+opacity: 0.5;
+    filter: alpha(opacity=50);
+    padding: 10px;
+}
+.one, .three, .five, .sex {
+
+    clear: both;
+    background-image: url('blomma.png');
+    font-family: 'Kranky', cursive;
+
+}
+.one, .three, .tow, .four { 
+    padding: 15px;
+    height: 300px;}
+
+    .one {
+        padding-top: 70px;
+    }
+    .five, .sex {
+        padding: 15px;
+        height: 100px;
+    }
+    h3 { width:100%; text-align:center; border-bottom: 1px solid #000; line-height:0.1em; margin:10px 0 20px; } 
+    h3 span{background-image: url('blomma.png') ; padding:0 10px; 
+    }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {
+    max-width: 1000px;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 0 auto;
+}
+.row ::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.col-3, .col-4, .col-6, .col-12, .col-1, .col-2, .col-5, .col-7, .col-8, .col-9, .col-10, .col-11 {
+    float: left;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+ifram {
+    height: 400px;
+    width: 300px;
+}
+input {
+    height: 30px;
+}
+.text {
+    height: 90px;;
+}
+button {
+    width: 400px;
+}
+.five-im {
+    width:30px;
+    height: 30px;
+}
+a {
+    text-decoration: none;
+    color:#fa983a;
+
+}
+footer {
+    padding: 10px;
+}
+@media only screen and (max-width:650px){
+    .col-3, .col-4, .col-6, .col-12, .col-1, .col-2, .col-5, .col-7, .col-8, .col-9, .col-10, .col-11 {
+        width: 100%;
+    }
+}
