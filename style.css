@@ -63,7 +63,7 @@ opacity: 0.5;
     }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
+.col-3, .col-0 {width: 25%;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
@@ -119,7 +119,19 @@ footer {
     padding: 10px;
 }
 @media only screen and (max-width:650px){
-    .col-3, .col-4, .col-6, .col-12, .col-1, .col-2, .col-5, .col-7, .col-8, .col-9, .col-10, .col-11 {
+    .col-3, .col-4, .col-6, .col-12, .col-1, .col-5, .col-7, .col-8, .col-9, .col-10, .col-11 {
         width: 100%;
+    }
+    .three{
+        height: 800px;
+    }
+    .col-2 {
+        width: 50%;
+    }
+    .col-0 {
+        width: 25%;
+    }
+    button {
+        size: 25;
     }
 }
