@@ -128,9 +128,7 @@ footer {
     .col-2 {
         width: 50%;
     }
-    .col-0 {
-        width: 25%;
-    }
+
     .navigation .links .link a {
-        margin-right: 15px;}
+        margin-right: 0px;}
 }
